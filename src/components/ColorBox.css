@@ -1,4 +1,4 @@
-.ColorBox {
+/* .ColorBox {
     width: 20%;
     height: 25%;
     margin: 0 auto;
@@ -6,10 +6,18 @@
     position: relative;
     cursor: pointer;
     margin-bottom: -3.5px;
+} */
+
+/* .SingleColorPallete .ColorBox {
+    height: 50%;
+} */
+
+/* .ColorBox.go-back {
+    background-color: black;
 }
 
-
-.copy-button {
+.copy-button,
+.back-button {
     width: 100px;
     height: 30px;
     position: absolute;
@@ -25,15 +33,19 @@
     color: white;
     text-transform: uppercase;
     border: none;
+    text-decoration: none;
+} */
+
+/* .copy-button {
     opacity: 0;
 }
 
-.ColorBox:hover .copy-button{
-    opacity:1;
+.ColorBox:hover .copy-button {
+    opacity: 1;
     transition: 0.5s;
-}
+} */
 
-.box-content {
+/* .box-content {
     position: absolute;
     padding: 10px;
     width: 100%;
@@ -43,13 +55,21 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 12px;
+} */
+
+/* .light-text {
+    color: white;
+}
+
+.ColorBox .dark-text {
+    color: black;
 }
 
 .see-more {
     position: absolute;
     right: 0px;
     bottom: 0px;
-    background: rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.3);
     border: none;
     color: white;
     width: 60px;
@@ -57,9 +77,9 @@
     text-align: center;
     line-height: 30px;
     text-transform: uppercase;
-}
+} */
 
-.copy-overlay {
+/* .copy-overlay {
     opacity: 0;
     z-index: 0;
     width: 100%;
@@ -72,12 +92,13 @@
     opacity: 1;
     transform: scale(50);
     z-index: 10;
-    position: absolute;;
-}
+    position: absolute;
+    ;
+} */
 
-.copy-message {
+/* .copy-message {
     position: fixed;
-    left:0;
+    left: 0;
     right: 0;
     top: 0;
     bottom: 0;
@@ -97,9 +118,9 @@
     z-index: 25;
     transition: all 0.4s ease-in-out;
     transition-delay: 0.3s;
-}
+} */
 
-.copy-message h1 {
+/* .copy-message h1 {
     font-weight: 400;
     text-shadow: 1px 2px black;
     background: rgba(255, 255, 255, 0.2);
@@ -112,4 +133,4 @@
 
 .copy-message p {
     font-size: 2rem;
-}
+} */
